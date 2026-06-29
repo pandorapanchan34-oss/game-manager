@@ -3,7 +3,7 @@ name: "🚀 LVR Web Auto Deployment"
 on:
   push:
     branches:
-      - main # mainブランチにコミット/プッシュされた瞬間に自動起動
+      - main
 
 permissions:
   contents: write
@@ -22,6 +22,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+
+      # 📁 エクスポート先のフォルダをあらかじめ物理的に強制生成する
+      - name: 📁 Create Export Directory
+        run: mkdir -p .godot/exported/Web
 
       - name: ⚙️ Setup Godot & Export Web (HTML5)
         uses: firebelley/godot-export@v5.2.1
