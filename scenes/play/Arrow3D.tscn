@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bcmgynknipwe0"]
+
+[ext_resource type="Script" uid="uid://deyetuqobvbdr" path="res://scenes/play/arrow_3d.gd" id="1_yrjm4"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_jqbds"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lwlmt"]
+
+[node name="Arrow3D" type="Area3D" unique_id=2129740269]
+script = ExtResource("1_yrjm4")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=734395604]
+transform = Transform3D(0.99996036, -0.008723475, 0.0017453256, 0.008726521, 0.99996036, -0.0017453283, -0.0017300312, 0.0017604898, 0.9999969, 0.1, 0.1, 0.5)
+mesh = SubResource("BoxMesh_jqbds")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1558715390]
+shape = SubResource("BoxShape3D_lwlmt")

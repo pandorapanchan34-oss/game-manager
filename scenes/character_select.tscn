@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://cfpson7mplpdq"]
+
+[ext_resource type="Texture2D" uid="uid://bib1n86ot4mlp" path="res://resources/character/ウサゲス/1000007260.jpg" id="1_jgus3"]
+[ext_resource type="Texture2D" uid="uid://d30ra7abgalr8" path="res://resources/character/ウルジェン/image.png" id="2_bow2h"]
+
+[node name="CharacterSelect" type="Control" unique_id=1528639095]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=829492865]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.15, 0.1, 0.1, 1)
+
+[node name="Label" type="Label" parent="." unique_id=535111412]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -250.0
+offset_top = 80.0
+offset_right = 250.0
+offset_bottom = 140.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 36
+text = "🔮 SELECT YOUR SOUL 🔮"
+horizontal_alignment = 1
+
+[node name="RabbitButton" type="Button" parent="." unique_id=651661987]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -394.0
+offset_top = -192.0
+offset_right = -110.0
+offset_bottom = 291.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 28
+
+[node name="WolfButton" type="Button" parent="." unique_id=194524397]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 94.0
+offset_top = -190.0
+offset_right = 370.0
+offset_bottom = 303.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 28
+
+[node name="1000007260" type="Sprite2D" parent="." unique_id=1718068052]
+position = Vector2(396, 406)
+texture = ExtResource("1_jgus3")
+
+[node name="Image" type="Sprite2D" parent="." unique_id=1995923304]
+position = Vector2(866, 408)
+texture = ExtResource("2_bow2h")

@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://bf1vvf8jmeeqq"]
+
+[ext_resource type="Script" uid="uid://brgrsba44a6ob" path="res://scripts/ui/title.gd" id="1_title_script"]
+[ext_resource type="Texture2D" uid="uid://ciec7edxv7omy" path="res://resources/1000007247.png" id="2_wosw1"]
+
+[node name="Title" type="Control" unique_id=1745538123]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_title_script")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1116456601]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 3
+stretch_mode = 5
+
+[node name="ButtonGroup" type="Control" parent="." unique_id=853804398]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = 40.0
+offset_right = 150.0
+offset_bottom = 245.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartButton" type="Button" parent="ButtonGroup" unique_id=2082798230]
+custom_minimum_size = Vector2(0, 40)
+clip_contents = true
+layout_mode = 0
+offset_left = 13.0
+offset_right = 289.0
+offset_bottom = 45.0
+flat = true
+
+[node name="ContinueButton" type="Button" parent="ButtonGroup" unique_id=280646450]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 0
+offset_left = 52.0
+offset_top = 68.0
+offset_right = 248.0
+offset_bottom = 98.0
+flat = true
+
+[node name="OptionsButton" type="Button" parent="ButtonGroup" unique_id=1740649607]
+custom_minimum_size = Vector2(0, 45)
+layout_mode = 0
+offset_left = 48.0
+offset_top = 105.0
+offset_right = 248.0
+offset_bottom = 150.0
+flat = true
+
+[node name="ExitButton" type="Button" parent="ButtonGroup" unique_id=510082485]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 0
+offset_left = 48.0
+offset_top = 158.0
+offset_right = 250.0
+offset_bottom = 188.0
+flat = true
+
+[node name="1000007247" type="Sprite2D" parent="." unique_id=1688640725]
+position = Vector2(640.50006, 359.49997)
+scale = Vector2(2.513672, 2.5243053)
+texture = ExtResource("2_wosw1")

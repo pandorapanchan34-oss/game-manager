@@ -1,0 +1,95 @@
+[gd_scene format=3 uid="uid://b8x2k8y1v2p3m"]
+
+[ext_resource type="Script" uid="uid://dh77o3y1incu7" path="res://scripts/ui/occupation_select.gd" id="1_script"]
+
+[node name="OccupationSelect" type="Control" unique_id=855139094]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="Background" type="ColorRect" parent="." unique_id=98609620]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.08, 0.07, 0.06, 1)
+
+[node name="TitleLabel" type="Label" parent="." unique_id=938783403]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.05
+anchor_right = 0.5
+anchor_bottom = 0.05
+offset_left = -300.0
+offset_right = 300.0
+offset_bottom = 50.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.92, 0.68, 0.45, 1)
+theme_override_font_sizes/font_size = 28
+text = "⛓️ ⚙️ 儀式：アイデンティティの抽出 ⚙️ ⛓️"
+horizontal_alignment = 1
+
+[node name="StepLabel" type="Label" parent="." unique_id=1925927587]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.12
+anchor_right = 0.5
+anchor_bottom = 0.12
+offset_left = -300.0
+offset_right = 300.0
+offset_bottom = 40.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.68, 0.62, 0.55, 1)
+theme_override_font_sizes/font_size = 20
+text = "Step 1: サブ職業（全世界へ完全公開）を選択せよ"
+horizontal_alignment = 1
+
+[node name="CardContainer" type="VBoxContainer" parent="." unique_id=1337096617]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.22
+anchor_right = 0.9
+anchor_bottom = 0.9
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="WarriorCard" type="Button" parent="CardContainer" unique_id=464942183]
+custom_minimum_size = Vector2(0, 70)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "鉄血連合 (戦士)"
+
+[node name="ShieldCard" type="Button" parent="CardContainer" unique_id=145878266]
+custom_minimum_size = Vector2(0, 70)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "鋼壁王国 (大盾騎士)"
+
+[node name="BowCard" type="Button" parent="CardContainer" unique_id=1106260991]
+custom_minimum_size = Vector2(0, 70)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "翡翠狩猟連邦 (弓士)"
+
+[node name="MageCard" type="Button" parent="CardContainer" unique_id=433288888]
+custom_minimum_size = Vector2(0, 70)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "蒸気魔導学院 (魔道士)"
+
+[node name="BarrierCard" type="Button" parent="CardContainer" unique_id=1448839324]
+custom_minimum_size = Vector2(0, 70)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "永縛結界同盟 (結界師)"

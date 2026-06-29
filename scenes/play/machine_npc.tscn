@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c6hptvvqdj41s"]
+
+[ext_resource type="Script" uid="uid://bhpie2ys87oti" path="res://scripts/enemy/machine_npc.gd" id="1_g3ci5"]
+
+[node name="MachineNpc" type="CharacterBody3D" unique_id=1009002929]
+script = ExtResource("1_g3ci5")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1482562577]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=831208315]
