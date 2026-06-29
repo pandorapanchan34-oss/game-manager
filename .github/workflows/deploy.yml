@@ -23,9 +23,9 @@ jobs:
         with:
           lfs: true
 
-      # 📁 エクスポート先のフォルダをあらかじめ物理的に強制生成する
+      # 📁 エクスポート先のフォルダをリポジトリ直下の「docs」に強制指定して生成
       - name: 📁 Create Export Directory
-        run: mkdir -p .godot/exported/Web
+        run: mkdir -p docs
 
       - name: ⚙️ Setup Godot & Export Web (HTML5)
         uses: firebelley/godot-export@v5.2.1
@@ -36,10 +36,11 @@ jobs:
           archive_output: false
           cache: true
 
+      # 🌌 【ここを修正】クラウドエンジンが出力したフォルダ（docs）の中身をそのままルートとして公開！
       - name: 🌐 Upload Artifact to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./.godot/exported/Web
+          path: ./docs
 
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
