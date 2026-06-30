@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b28ap2h58t8cr"
-path.s3tc="res://.godot/imported/1000007206.jpg-013d6248fee51b29eb0a978e1e9fe8f5.s3tc.ctex"
+path.s3tc="res://.godot/imported/collseum_battle_field.jpg-3eadafaca84ef15a559aeb1bb8f099cd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://resources/stage/collseum/1000007206.jpg"
-dest_files=["res://.godot/imported/1000007206.jpg-013d6248fee51b29eb0a978e1e9fe8f5.s3tc.ctex"]
+source_file="res://resources/stage/collseum/collseum_battle_field.jpg"
+dest_files=["res://.godot/imported/collseum_battle_field.jpg-3eadafaca84ef15a559aeb1bb8f099cd.s3tc.ctex"]
 
 [params]
 

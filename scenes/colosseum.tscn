@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cxs4rvtcg5otl"]
 
-[ext_resource type="Texture2D" uid="uid://b28ap2h58t8cr" path="res://resources/stage/collseum/1000007206.jpg" id="1_2orsv"]
+[ext_resource type="Texture2D" uid="uid://b28ap2h58t8cr" path="res://resources/stage/collseum/collseum_battle_field.jpg" id="1_2orsv"]
 [ext_resource type="Texture2D" uid="uid://ym5bmwdleys2" path="res://resources/stage/collseum/colosseum_main_stage.png" id="1_qp6nd"]
 [ext_resource type="Texture2D" uid="uid://gd2ioipdnglf" path="res://resources/stage/collseum/smoke_particle.jpg" id="2_smoke"]
 [ext_resource type="Texture2D" uid="uid://beg4g6xad3w1h" path="res://resources/stage/collseum/godray_particle.jpg" id="3_godray"]

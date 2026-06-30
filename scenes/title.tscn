@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bf1vvf8jmeeqq"]
 
 [ext_resource type="Script" uid="uid://brgrsba44a6ob" path="res://scripts/ui/title.gd" id="1_title_script"]
-[ext_resource type="Texture2D" uid="uid://ciec7edxv7omy" path="res://resources/1000007247.png" id="2_wosw1"]
+[ext_resource type="Texture2D" uid="uid://ciec7edxv7omy" path="res://resources/ui/title/main_title.png" id="2_wosw1"]
 
 [node name="Title" type="Control" unique_id=1745538123]
 layout_mode = 3
