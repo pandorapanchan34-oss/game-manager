@@ -1,3 +1,22 @@
 # Godot 4+ specific ignores
+# このフォルダにはプロジェクト固有のキャッシュデータが保存されており、バージョン管理に含めるべきではありません。
 .godot/
+
+# Androidのエクスポートテンプレートやビルド用フォルダ
 /android/
+
+# Godot固有の無視ファイル
+# インポートされたアセットのメタデータが含まれます。Godotによって再生成可能です。
+.import/
+
+# エクスポート設定。export_credentials.cfg には機密情報が含まれる可能性があります。
+export_presets.cfg
+export_credentials.cfg
+
+# インポートされた翻訳ファイル（CSVから自動生成されるバイナリファイル）
+*.translation
+
+# Mono固有の無視ファイル（C#を使用している場合）
+.mono/
+data_*/
+mono_crash.*.json
