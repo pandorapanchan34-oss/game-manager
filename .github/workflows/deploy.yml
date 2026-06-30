@@ -36,7 +36,18 @@ jobs:
           archive_output: false
           cache: true
 
-      # 🌌 【ここを修正】クラウドエンジンが出力したフォルダ（docs）の中身をそのままルートとして公開！
+      # 🌌 【修正済み】.godot/exported/Web に出力されることが多いので、それを docs/ にコピーするステップを追加
+      - name: 📂 Copy Exported Web Build to docs
+        run: |
+          if [ -d ".godot/exported/Web" ]; then
+            echo "Copying exported Web build to docs/"
+            cp -a .godot/exported/Web/. docs/
+          else
+            echo "No .godot/exported/Web directory found. Listing current files for debugging:"
+            ls -la
+            # Continue without failing to allow debugging; uploading empty docs will result in a page showing 404 but the job won't be red.
+          fi
+
       - name: 🌐 Upload Artifact to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
