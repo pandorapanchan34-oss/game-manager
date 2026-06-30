@@ -1,0 +1,47 @@
+name: "🚀 LVR Web Auto Deployment"
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 💾 Checkout Source Code
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      # 📁 エクスポート先のフォルダをリポジトリ直下の「docs」に強制指定して生成
+      - name: 📁 Create Export Directory
+        run: mkdir -p docs
+
+      - name: ⚙️ Setup Godot & Export Web (HTML5)
+        uses: firebelley/godot-export@v5.2.1
+        with:
+          godot_executable_download_url: https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_linux.x86_64.zip
+          godot_export_templates_download_url: https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_export_templates.tpz
+          relative_project_path: ./
+          archive_output: false
+          cache: true
+
+      # 🌌 【ここを修正】クラウドエンジンが出力したフォルダ（docs）の中身をそのままルートとして公開！
+      - name: 🌐 Upload Artifact to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
