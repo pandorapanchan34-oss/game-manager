@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cfcfacwbc76r8"
-path="res://.godot/imported/usagesu.glb-1bc589cfb6b460d5616e672b2b3bfe98.scn"
+path="res://.godot/imported/usagesu.glb-c3d81757032892d3a7a1fbd851024bd6.scn"
 
 [deps]
 
-source_file="res://resources/character/ウサゲス/usagesu.glb"
-dest_files=["res://.godot/imported/usagesu.glb-1bc589cfb6b460d5616e672b2b3bfe98.scn"]
+source_file="res://resources/character/usagesu/usagesu.glb"
+dest_files=["res://.godot/imported/usagesu.glb-c3d81757032892d3a7a1fbd851024bd6.scn"]
 
 [params]
 
@@ -39,7 +39,16 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Skeleton3D": {
+"node/script": Object(GDScript,"resource_local_to_scene":false,"resource_name":"","script/source":"","script":null)
+,
+"retarget/bone_map": Object(BoneMap,"resource_local_to_scene":false,"resource_name":"","profile":null,"bonemap":null,"script":null)
+
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

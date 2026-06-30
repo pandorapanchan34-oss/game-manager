@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ym5bmwdleys2" path="res://resources/stage/collseum/colosseum_main_stage.png" id="1_qp6nd"]
 [ext_resource type="Texture2D" uid="uid://gd2ioipdnglf" path="res://resources/stage/collseum/smoke_particle.jpg" id="2_smoke"]
 [ext_resource type="Texture2D" uid="uid://beg4g6xad3w1h" path="res://resources/stage/collseum/godray_particle.jpg" id="3_godray"]
-[ext_resource type="PackedScene" uid="uid://cfcfacwbc76r8" path="res://resources/character/ウサゲス/usagesu.glb" id="5_th8yo"]
+[ext_resource type="PackedScene" uid="uid://cfcfacwbc76r8" path="res://resources/character/usagesu/usagesu.glb" id="5_th8yo"]
 [ext_resource type="Script" uid="uid://bxk8fwoua1hby" path="res://scripts/entityes/player.gd" id="6_xfcuo"]
 [ext_resource type="Script" uid="uid://b5hpop8rn6b3h" path="res://scripts/core/player_input.gd" id="7_t5fm6"]
 

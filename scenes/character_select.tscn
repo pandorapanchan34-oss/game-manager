@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cfpson7mplpdq"]
 
-[ext_resource type="Texture2D" uid="uid://bib1n86ot4mlp" path="res://resources/character/ウサゲス/1000007260.jpg" id="1_jgus3"]
-[ext_resource type="Texture2D" uid="uid://d30ra7abgalr8" path="res://resources/character/ウルジェン/image.png" id="2_bow2h"]
+[ext_resource type="Texture2D" uid="uid://bib1n86ot4mlp" path="res://resources/character/usagesu/usagesu_select.jpg" id="1_jgus3"]
+[ext_resource type="Texture2D" uid="uid://d30ra7abgalr8" path="res://resources/character/urujen/urujen_select.png" id="2_bow2h"]
 
 [node name="CharacterSelect" type="Control" unique_id=1528639095]
 layout_mode = 3

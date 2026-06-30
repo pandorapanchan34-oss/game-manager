@@ -2,20 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bib1n86ot4mlp"
-path="res://.godot/imported/1000007260.jpg-b808a5948672b571b7a89ed2eee133cf.ctex"
+uid="uid://bfxbd0niobp84"
+path.s3tc="res://.godot/imported/usagesu_0.png-55a68364094314e62ef1612e6b5f97f5.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "884e6bc9d600f9aa35078e0f2e347734"
 }
 
 [deps]
 
-source_file="res://resources/character/ウサゲス/1000007260.jpg"
-dest_files=["res://.godot/imported/1000007260.jpg-b808a5948672b571b7a89ed2eee133cf.ctex"]
+source_file="res://resources/character/usagesu/usagesu_0.png"
+dest_files=["res://.godot/imported/usagesu_0.png-55a68364094314e62ef1612e6b5f97f5.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -23,7 +27,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=false
+mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -37,4 +41,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0

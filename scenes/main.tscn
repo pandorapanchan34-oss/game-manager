@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dr6o8t73pampd"]
 
-[ext_resource type="PackedScene" uid="uid://dnx2v52xec0sl" path="res://resources/character/ウルジェン/urujen.glb" id="2_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://dnx2v52xec0sl" path="res://resources/character/urujen/urujen.glb" id="2_0wfyh"]
 [ext_resource type="Texture2D" uid="uid://x41su2ch3fyj" path="res://resources/dark_steampunk_ground.jpg" id="2_tbgi4"]
 
 [sub_resource type="Environment" id="Environment_lwlmt"]

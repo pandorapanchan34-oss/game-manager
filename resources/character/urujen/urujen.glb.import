@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dnx2v52xec0sl"
-path="res://.godot/imported/urujen.glb-2d7a9cfda8f277f4c35ef9476f108d1a.scn"
+path="res://.godot/imported/urujen.glb-0f8bc26d64e377b6478c46b9b78aef83.scn"
 
 [deps]
 
-source_file="res://resources/character/ウルジェン/urujen.glb"
-dest_files=["res://.godot/imported/urujen.glb-2d7a9cfda8f277f4c35ef9476f108d1a.scn"]
+source_file="res://resources/character/urujen/urujen.glb"
+dest_files=["res://.godot/imported/urujen.glb-0f8bc26d64e377b6478c46b9b78aef83.scn"]
 
 [params]
 

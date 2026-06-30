@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qwwvc0ci1vyr"
-path.s3tc="res://.godot/imported/urujen_0.png-f1981e29c66a4802ae47c4faad7511a7.s3tc.ctex"
+uid="uid://d22yox6d8yrgl"
+path.s3tc="res://.godot/imported/urujenn_concept.png-a3f666f5e2cd4556651c675388d275e8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "47c2c657005cb94e409c490efd2f96ed"
-}
 
 [deps]
 
-source_file="res://resources/character/ウルジェン/urujen_0.png"
-dest_files=["res://.godot/imported/urujen_0.png-f1981e29c66a4802ae47c4faad7511a7.s3tc.ctex"]
+source_file="res://resources/character/urujen/urujenn_concept.png"
+dest_files=["res://.godot/imported/urujenn_concept.png-a3f666f5e2cd4556651c675388d275e8.s3tc.ctex"]
 
 [params]
 

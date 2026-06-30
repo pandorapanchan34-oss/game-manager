@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://d3oe5ojhxxvt3"]
 
 [ext_resource type="Script" uid="uid://ckanrtetc8k7j" path="res://usagesu.gd" id="1_82nat"]
-[ext_resource type="Texture2D" uid="uid://defcob6xssmsd" path="res://resources/character/ウサゲス/usagesu_0.png" id="2_nd85t"]
+[ext_resource type="Texture2D" uid="uid://defcob6xssmsd" path="res://resources/character/usagesu/usagesu_0.png" id="2_nd85t"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_nuahx"]
 radius = 0.28710938

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxyavutuj72wh"
-path="res://.godot/imported/image.png-b233e7cdb596283b8f621ceaf67ec57b.ctex"
+uid="uid://d30ra7abgalr8"
+path="res://.godot/imported/urujen_select.png-172b3996db7bac9280acfd065204627b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/character/image.png"
-dest_files=["res://.godot/imported/image.png-b233e7cdb596283b8f621ceaf67ec57b.ctex"]
+source_file="res://resources/character/urujen/urujen_select.png"
+dest_files=["res://.godot/imported/urujen_select.png-172b3996db7bac9280acfd065204627b.ctex"]
 
 [params]
 
